@@ -1,0 +1,18 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background-color: var(--ripeLemon);
+  color: var(--dark-green);
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 10px 10px 5px var(--black);
+}
+
+.title {
+  text-shadow: 3px 3px 2px var(--dark-yellow);
+}
