@@ -1,0 +1,16 @@
+.headerElement {
+  align-items: center;
+  background-color: var(--ripeLemon);
+  box-shadow: 0px 0px 5px var(--black);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+  position: sticky;
+  top: 0;
+  z-index: var(--zIndexHeader);
+}
+
+.icon {
+  height: 40px;
+  margin-right: 10px;
+}

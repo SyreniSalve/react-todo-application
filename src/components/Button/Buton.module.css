@@ -1,0 +1,20 @@
+.button {
+  background: linear-gradient(90deg, var(--light-purple), var(--pink));
+  border: none;
+  border-radius: 3px;
+  color: var(--white);
+  cursor: pointer;
+  font: inherit;
+  outline: inherit;
+  padding: 8px 13px;
+  box-shadow: 0px 0px 5px var(--black);
+}
+
+.button:hover {
+  filter: brightness(90%);
+  color: var(--dark-purple);
+}
+
+.button:focus {
+  outline: 2px solid -webkit-focus-ring-color;
+}
