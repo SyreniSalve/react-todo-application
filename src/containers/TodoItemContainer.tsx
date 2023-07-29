@@ -1,4 +1,4 @@
-import Todo from "../../components/Todo";
+import Todo from "../components/Todo";
 import styles from "./TodoItemContainer.module.css";
 
 const TodoItemContainer = (): JSX.Element => {

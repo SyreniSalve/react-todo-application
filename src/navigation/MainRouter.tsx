@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import TodoItemContainer from "../containers/TodoItemContainer/TodoItemContainer";
+import TodoItemContainer from "../containers/TodoItemContainer";
 import { RouteKey } from "./routes";
 
 const MainRouter = (): JSX.Element => (
