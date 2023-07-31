@@ -1,0 +1,45 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  height: 400px;
+  background-color: var(--ripeLemon);
+  color: var(--dark-green);
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 10px 10px 5px var(--black);
+}
+
+.form {
+  margin: 40px;
+}
+
+.backIconContainer {
+  display: flex;
+  margin: 20px;
+}
+
+.backIcon {
+  color: var(--darkGreen);
+}
+
+.backIcon:active {
+  color: var(--pink);
+}
+
+.title {
+  color: var(--darkGreen);
+  text-shadow: 3px 3px 2px var(--darkYellow);
+}
+
+.buttonContainer {
+  margin-top: 40px;
+}
+
+.submitButton {
+  background: linear-gradient(90deg, var(--darkGreen), var(--lightGreen));
+  margin-right: 10px;
+}

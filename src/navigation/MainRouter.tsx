@@ -1,10 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import TodoItemContainer from "../containers/TodoItemContainer";
+import TodoListContainer from "../containers/TodoListContainer";
 import { RouteKey } from "./routes";
+import TodoAddFormContainer from "../containers/TodoAddFormContainer/TodoAddFormContiner";
+import TodoEditFormContainer from "../containers/TodoEditFormContainer/TodoEditFormContainer";
 
 const MainRouter = (): JSX.Element => (
   <Routes>
-    <Route element={<TodoItemContainer />} path={RouteKey.Todos} />
+    <Route element={<TodoListContainer />} path={RouteKey.Todos} />
+    <Route element={<TodoAddFormContainer />} path={RouteKey.Add} />
+    <Route element={<TodoEditFormContainer />} path={RouteKey.Edit} />
   </Routes>
 );
 

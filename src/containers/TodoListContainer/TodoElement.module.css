@@ -1,0 +1,48 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(90deg, var(--darkGreen), var(--pink));
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  color: var(--white);
+}
+
+.link:active {
+  color: var(--darkGreen);
+}
+
+.nonActiveLink {
+  color: var(--darkGreen);
+  cursor: not-allowed;
+}
+
+.editIcon {
+  margin-right: 10px;
+}
+
+.deleteIcon {
+  color: var(--purple);
+}
+
+.redDeleteIcon {
+  color: var(--white);
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}

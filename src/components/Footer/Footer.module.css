@@ -1,6 +1,6 @@
 .pageFooter {
   align-items: center;
-  background: linear-gradient(90deg, var(--light-purple), var(--pink));
+  background: linear-gradient(90deg, var(--lightPurple), var(--pink));
   color: var(--white);
   text-decoration: double;
   display: flex;

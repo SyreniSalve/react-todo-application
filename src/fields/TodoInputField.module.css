@@ -1,0 +1,29 @@
+.textInputField {
+  background: var(--paper);
+  color: var(--darkGreen);
+  border: 1px solid var(--darkYellow);
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+
+.textInputField::placeholder {
+  color: var(--darkGreen);
+}
+
+.textInputField:active,
+.textInputField:focus {
+  border: 1px solid var(--darkGreen);
+  outline: none;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.fieldError {
+  color: var(--red);
+  font-size: 12px;
+  margin-top: 5px;
+}

@@ -1,0 +1,15 @@
+.checkboxContainer {
+  display: flex;
+}
+
+.checkboxLabel {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.title {
+  margin-bottom: 22px;
+  color: var(--darkGreen);
+  text-shadow: 3px 3px 2px var(--darkYellow);
+}
