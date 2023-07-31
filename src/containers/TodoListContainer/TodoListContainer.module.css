@@ -1,7 +1,7 @@
 .todoContainer {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   width: 520px;
   min-height: 600px;
   background-color: var(--ripeLemon);
@@ -14,5 +14,14 @@
 }
 
 .title {
-  text-shadow: 3px 3px 2px var(--dark-yellow);
+  text-shadow: 3px 3px 2px var(--darkYellow);
+  margin: 40px 0px;
+}
+
+.buttonContainer {
+  margin-top: 32px;
+}
+
+.button {
+  background: linear-gradient(90deg, var(--lightPurple), var(--pink));
 }

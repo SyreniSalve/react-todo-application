@@ -1,9 +1,13 @@
 export type TodosResponse = {
-    todos: Todo[];
-}
+  map(
+    arg0: (todo: any, index: any) => import("react/jsx-runtime").JSX.Element
+  ): JSX.Element;
+  todos: TodoResponse[];
+};
 
-export type Todo = {
-    id: number;
-    description: string;
-    complete: boolean;
-}
+export type TodoResponse = {
+  id?: string;
+  description: string;
+  complete?: boolean;
+  onDeleteClick?: () => void;
+};

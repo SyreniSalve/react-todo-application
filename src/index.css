@@ -1,5 +1,5 @@
 body {
-  background-color: var(--dark-green);
+  background-color: var(--darkGreen);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -15,17 +15,21 @@ code {
 
 :root {
   --grey: #c7c7c7;
-  --dark-grey: #858282;
+  --darkGrey: #858282;
   --paper: #fafafa;
   --purple: #8618bd;
-  --light-purple: #a841fd;
-  --dark-purple: #190314;
+  --lightPurple: #a841fd;
+  --darkPurple: #190314;
   --pink: #ed55fd;
-  --super-pink: #fa0087;
-  --light-pink: #fcf0f9;
+  --superPink: #fa0087;
+  --red: #c61a09;
+  --lightRed: #ff4122;
+  --orange: #ff9e00;
+  --lightPink: #fcf0f9;
   --ripeLemon: #f5c518;
-  --dark-yellow: #c19a0d;
-  --dark-green: #054347;
+  --darkYellow: #c19a0d;
+  --darkGreen: #054347;
+  --lightGreen: #16d2de;
   --secondary: #61dafb;
   --white: #fff;
   --black: #000000;

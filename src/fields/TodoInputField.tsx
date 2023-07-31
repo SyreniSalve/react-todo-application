@@ -1,13 +1,13 @@
 import { Field, ErrorMessage } from "formik";
 
-import styles from "./TodoField.module.css"
+import styles from "./TodoInputField.module.css";
 
-type TodoFieldProps = {
+type TodoInputFieldProps = {
   name: string;
-  placeholder: string;
+  placeholder: string | undefined;
 };
 
-const TodoField = (props: TodoFieldProps): JSX.Element => {
+const TodoInputField = (props: TodoInputFieldProps): JSX.Element => {
   const { name, placeholder, ...rest } = props;
   return (
     <div className={styles.fieldWrapper}>
@@ -23,4 +23,4 @@ const TodoField = (props: TodoFieldProps): JSX.Element => {
   );
 };
 
-export default TodoField;
+export default TodoInputField;

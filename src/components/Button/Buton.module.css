@@ -1,5 +1,4 @@
 .button {
-  background: linear-gradient(90deg, var(--light-purple), var(--pink));
   border: none;
   border-radius: 3px;
   color: var(--white);
@@ -12,7 +11,7 @@
 
 .button:hover {
   filter: brightness(90%);
-  color: var(--dark-purple);
+  color: var(--darkPurple);
 }
 
 .button:focus {
